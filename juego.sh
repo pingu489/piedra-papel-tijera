@@ -16,7 +16,7 @@ if [[ ! " ${opciones[@]} " =~ " $jugador " ]]; then
     exit 1
 fi
  
-# Elección de la computadora
+# Elección de la maquina
 maquina=${opciones[$RANDOM % 3]}
 echo "La maquina ha elegido: $maquina"
  
